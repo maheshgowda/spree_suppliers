@@ -29,4 +29,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'mysql2'
+  s.add_development_dependency 'cucumber-rails', '~> 1.4', '>= 1.4.3'
+  s.add_development_dependency 'nokogiri', '~> 1.6', '>= 1.6.7.2'
+  s.add_development_dependency 'shoulda', '~> 3.5'
 end
